@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--标题栏与返回键的创建，独立在main_title_bar.xml中-->
+<!--标题栏设置高度为50dp，宽度为match_parent,设置背景颜色为通明为@android:color/transparent-->
+<!--RelativeLayout为相对布局-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/transparent">
+    <!--设置返回键TextView为高度50dp,宽度为50dp;id为android:id="@+id/tv_back"-->
+    <!--layout_alignParentLeft为与父控件左对齐-->
+    <!--layout_centerVertical为控件垂直居中-->
+    <!--标题栏界面中的返回键在按下与弹起时，返回键会有明显的区别，这种效果通过背景选择器进行实现-->
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/go_back_selector"/>
+    <!--设置id为android:id="@+id/tv_main_title-->
+    <!--该TextView为显示文本-->
+    <!--layout_centerInparent为居中显示-->
+    <TextView
+        android:id="@+id/tv_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+    <!--到main_title_bar.xml中tv_main_title按钮的下方，加个“保存”-->
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:text="保存"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+</RelativeLayout>

@@ -1,4 +1,4 @@
-package cn.edu.gdmec.android.boxuegu;
+package cn.edu.gdmec.android.boxuegu.activity;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+import cn.edu.gdmec.android.boxuegu.R;
 
 public class SplashActivity extends AppCompatActivity {
     @Override
@@ -37,6 +39,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //发送intent实现页面跳转，第一个参数为当前页面的context，第二个参数为要跳转的主页
+                //注意这里的MainActivity.class
                 Intent intent = new Intent(SplashActivity.this,MainActivity.class);
                 startActivity(intent);
                 //跳转后关闭当前欢迎页面

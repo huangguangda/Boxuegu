@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--建立go_back_selector.xml背景选择器-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--android:state_pressed="true"为是否按下，如一个按钮触摸或者点击-->
+    <!--当按下时显示灰色图片（iv_back_selected.png），当按钮弹起时显示白色图片（iv_back.png）-->
+    <item android:drawable="@drawable/iv_back_selected" android:state_pressed="true"/>
+    <item android:drawable="@drawable/iv_back"/>
+</selector>
