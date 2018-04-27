@@ -1,17 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--任务：检验登录和注册模块-->
-<!--在主界面的Hello World位置显示：用户名+“登录成功”-->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--标题栏-->
+        <include layout="@layout/main_title_bar"/>
+        <!--放置Fragment的main_body-->
+        <RelativeLayout
+            android:id="@+id/main_body"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/et_user_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="hello"
-        android:layout_gravity="center"/>
-
-</LinearLayout>
+    <LinearLayout
+        android:id="@+id/main_bottom_bar"
+        android:layout_alignParentBottom="true"
+        android:background="#F2F2F2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/bottom_bar_course_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/bottom_bar_text_course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="课 程"
+                android:textColor="#666666"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_above="@+id/bottom_bar_text_course"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:id="@+id/bottom_bar_image_course"
+                android:src="@drawable/main_course_icon"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/bottom_bar_exercises_btn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/bottom_bar_text_exercises"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="习 题"
+                android:textColor="#666666"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_above="@+id/bottom_bar_text_exercises"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:id="@+id/bottom_bar_image_exercises"
+                android:src="@drawable/main_exercises_icon"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/bottom_bar_myinfo_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/bottom_bar_text_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="我"
+                android:textColor="#666666"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_above="@+id/bottom_bar_text_myinfo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:id="@+id/bottom_bar_image_myinfo"
+                android:src="@drawable/main_my_icon"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
