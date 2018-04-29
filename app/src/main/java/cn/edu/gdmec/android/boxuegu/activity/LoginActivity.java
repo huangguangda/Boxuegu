@@ -69,8 +69,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //跳转到找回密码界面（此页面暂未创建）
-                /*Intent intent=new Intent(LoginActivity.this,FindPwdActivity.class);
-                startActivity(intent);*/
+                Intent intent=new Intent(LoginActivity.this,FindPswActivity.class);
+                startActivity(intent);
             }
         });
         //登录按钮的点击事件
