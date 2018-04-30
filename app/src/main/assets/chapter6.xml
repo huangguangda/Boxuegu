@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <exercises id="1">
+      <subject>1.下列选项中，属于Android中四大组件的是（）。</subject>
+      <a>Activity</a>
+      <b>ContentReceiver</b>
+      <c>Service</c>
+      <d>ABC都是</d>
+      <answer>4</answer>
+  </exercises>
+  <exercises id="2">
+      <subject>2.下列关于ContentResolver的描述，错误的是（）。</subject>
+      <a>可以操作数据库数据</a>
+      <b>操作其他应用数据必须知道包名</b>
+      <c>只能操作ContentProvider暴漏的数据</c>
+      <d>可以操作ContentProvider的任意数据</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="3">
+      <subject>3.下列关于内容提供者的描述，不正确的是（）。</subject>
+      <a>提供的	Uri必须符合规范</a>
+      <b>可以提供本应用所有数据供别人访问</b>
+      <c>必须在清单文件中注册</c>
+      <d>authorities属性必须和包名一致</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="4">
+      <subject>4.继承ContentProvider类不需要重写的方法是（）。</subject>
+      <a>delete()</a>
+      <b>insert()</b>
+      <c>onStart()</c>
+      <d>onUpdate()</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="5">
+      <subject>5.下列关于内容观察者的说法，正确的是（）。</subject>
+      <a>可以观察任何数据</a>
+      <b>观察其他应用数据需要权限</b>
+      <c>只能观察到指定Uri的数据</c>
+      <d>观察其他应用数据必须在清单文件中注册</d>
+      <answer>3</answer>
+  </exercises>
+</infos>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <exercises id="1">
+      <subject>1.下列文件操作权限中，指定文件内容可以追加的是（）。</subject>
+      <a>MODE_PRIVATE</a>
+      <b>MODE_WORLD_READABLE</b>
+      <c>MODE_APPEND</c>
+      <d>MODE_WORLD_WRITEABLE</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="2">
+      <subject>2.下列代码中，用于获取SD卡路径的是（）。</subject>
+      <a>Environment.getSD();</a>
+      <b>Environment.getExternalStorageState();</b>
+      <c>Environment.getSD Directory();</c>
+      <d>Environment.getExternalStorageDirectory();</d>
+      <answer>4</answer>
+  </exercises>
+  <exercises id="3">
+      <subject>3.下列选项中，关于文件存储数据的说法错误的是（）。</subject>
+      <a>文件存储是以流的形式来操作数据的</a>
+      <b>文件存储可以讲数据存储到SD卡中</b>
+      <c>文件存储可以讲数据存储到内存中</c>
+      <d>Android中只能使用文件存储数据</d>
+      <answer>4</answer>
+  </exercises>
+  <exercises id="4">
+      <subject>4.下列选项中，关于XML序列化和解析描述合理的是（）。</subject>
+      <a>DOM解析会将XML文件的所有内容以文档树方式存放在内存中</a>
+      <b>在序列化对象时，需要使用XmlSerialize序列化器，即XmlSerializer类</b>
+      <c>XmlSerializer类的startDocument()方法用于写入序列号的开始节点</c>
+      <d>XmlSerializer类的startTag()方法用于设置文件的编码方式</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="5">
+      <subject>5.如果要将程序中的私有数据分享给其他应用程序，可以使用的是（）。</subject>
+      <a>文件存储</a>
+      <b>SharedPreferences</b>
+      <c>ContentProvider</c>
+      <d>SQLite</d>
+      <answer>3</answer>
+  </exercises>
+</infos>

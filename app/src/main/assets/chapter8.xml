@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <exercises id="1">
+      <subject>1.每一次启动服务都会调用什么方法（）。</subject>
+      <a>onCreate()</a>
+      <b>onStart()</b>
+      <c>onResume()</c>
+      <d>onStartCommand()</d>
+      <answer>4</answer>
+  </exercises>
+  <exercises id="2">
+      <subject>2.下列选项中，不属于绑定服务的特点的是（）。</subject>
+      <a>以bindService()方法开启</a>
+      <b>调用者关闭后服务关闭</b>
+      <c>必须实现ServiceConnection()</c>
+      <d>使用stopService()方法关闭服务</d>
+      <answer>4</answer>
+  </exercises>
+  <exercises id="3">
+      <subject>3.Service与Activity的共同点是（）。</subject>
+      <a>都是四大组件之一</a>
+      <b>都有onResume()方法</b>
+      <c>都不可以被远程调用</c>
+      <d>都可以自定义美观界面</d>
+      <answer>1</answer>
+  </exercises>
+  <exercises id="4">
+      <subject>4.下列方法中，不属于Service生命周期的是（）。</subject>
+      <a>onResume()</a>
+      <b>onStart()</b>
+      <c>onStop()</c>
+      <d>onDestory</d>
+      <answer>1</answer>
+  </exercises>
+  <exercises id="5">
+      <subject>5.关于Service生命周期的onCreate()和onStart()方法，说法正确的是（）。</subject>
+      <a>如果Service已经启动，将先后调用onCreate()和onStart()方法</a>
+      <b>如果Service已经启动，只会执行onCreate()方法</b>
+      <c>当第一次启动的时候只会调用onCreate()方法</c>
+      <d>如果Service已经启动，只会执行onStart()方法，不再执行onCreate()方法</d>
+      <answer>4</answer>
+  </exercises>
+</infos>

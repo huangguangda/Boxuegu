@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <exercises id="1">
+      <subject>1.Android安装包文件简称APK，其后缀名是（）。</subject>
+      <a>.exe</a>
+      <b>.txt</b>
+      <c>.apk</c>
+      <d>.app</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="2">
+      <subject>2.下列选项中不属于ADT Bundle的是（）。</subject>
+      <a>Eclipse</a>
+      <b>SDK</b>
+      <c>SDK Manager.exe</c>
+      <d>JDK</d>
+      <answer>4</answer>
+  </exercises>
+  <exercises id="3">
+      <subject>3.应用程序层是一个核心应用程序的集合，主要包括（）。</subject>
+      <a>活动管理器</a>
+      <b>短信程序</b>
+      <c>音频驱动</c>
+      <d>Dalvik 虚拟机</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="4">
+      <subject>4.ADB 的常见指令中”列出所有设备“的指令是（）。</subject>
+      <a>adb uninstall</a>
+      <b>adb install</b>
+      <c>adb device</c>
+      <d>adb emulator-avd</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="5">
+      <subject>5.创建程序时，填写的Application Name表示（）。</subject>
+      <a>应用名称</a>
+      <b>项目名称</b>
+      <c>项目的包名</c>
+      <d>类的名字</d>
+      <answer>1</answer>
+  </exercises>
+</infos>

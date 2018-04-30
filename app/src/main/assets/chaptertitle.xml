@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <course id="1">
+      <imgtitle>Android 开发环境搭建</imgtitle>
+      <title>第1章 Android 基础入门</title>
+      <intro>      Android 是Google公司基于Linux平台开发的手机及平板电脑的操作系统。自问世以来，受到了前所未有的关注，并成为移动平台最受欢迎的操作系统之一。本章将针对Android的基础知识进行详细的讲解。</intro>
+  </course>  
+  <course id="2">
+      <imgtitle>Android 五大布局</imgtitle>
+      <title>第2章 Android UI开发</title>
+      <intro>      Android 程序开发最重要的一个环节就是界面处理，界面的美观度直接影响用户的第一印象，因此，开发一个整齐、美观的界面是至关重要的，本章将针对Android中的UI开发进行详细地讲解。</intro>
+  </course>  
+  <course id="3">
+      <imgtitle>Activity 的使用</imgtitle>
+      <title>第3章 Activity</title>
+      <intro>      在现实生活中，经常会使用手机进行打电话、发短信、玩游戏等，这就需要与手机界面进行交互。在Android系统中，用户与程序的交互是通过Activity完成的。同时Activity是Android四大组件中最常用的一个，本章将针对Activity的相关知识进行详细的讲解。</intro>
+  </course>  
+  <course id="4">
+      <imgtitle>数据存储方式与文件存储</imgtitle>
+      <title>第4章 数据存储</title>
+      <intro>      大部分应用程序都会涉及到数据存储，Android程序也不例外。Android中的数据存储方式有五种，分别是文件存储、SharedPreferences、SQLite数据库、ContentProvider以及网络存储。文件存储有很多种形式，XML就是其中的一种，XML存储的数据结构比较清晰，应用比较广泛，因此本章将重点讲解文件存储、XML序列化和解析以及SharedPreferences存储。SQLite数据库、ContentProider和网络存储知识较多并且存储方式与文件存储、SharedPreferences有明显差别，所以放在后边的章节中进行想起讲解。</intro>
+  </course>  
+ <course id="5">
+      <imgtitle>SQLite 数据库与ListView</imgtitle>
+      <title>第5章 SQLite 数据库</title>
+      <intro>      前面介绍了如何使用SharedPreferences和文件存储来存储数据。但是当需要存储大量数据时，这两种方式显然不合适，为此Android系统中提供了SQLite数据库，它可以存储应用程序中的大量数据，并对数据进行管理和维护。本章将针对SQLite数据库进行详细地讲解。</intro>
+  </course>  
+  <course id="6">
+      <imgtitle>广播接收者的类型与使用</imgtitle>
+      <title>第6章 广播接收者</title>
+      <intro>      在Android开发中，经常需要访问其他应用程序的数据。例如，使用支付宝转账时需要填写收款人的电话号码，此时就需要获取到系统联系人的信息。为了实现这种跨程序共享数据的功能，Android系统提供了一个组件内容提供者（ContentProvider）。本章将针对内容提供者进行详细地讲解。</intro>
+  </course>  
+  <course id="7">
+      <imgtitle>服务创建、启动与生命周期</imgtitle>
+      <title>第7章 服务</title>
+      <intro>      在Android系统中，广播（Broadcast）是一种运用在应用程序直接传递消息的机制，广播接收者（BroadcastReceiver）是用来过滤、接收并响应广播的一类组件。通过广播接收者可以监听系统中的广播消息，在不同组件之间进行通信。本章将为大家讲解广播接收者的相关知识。</intro>
+  </course>  
+  <course id="8">
+      <imgtitle>内容提供者的使用</imgtitle>
+      <title>第8章 内容提供者</title>
+      <intro>      服务与Activity类似，不同的是服务没有界面，是一个长期运行在后台的组件，即使启动服务的应用程序被切换掉，其他的Service也可以在后台正常运行，因此Service经常被用来处理一些耗时的程序，例如进行网络传输或者播放音乐等。本章将针对服务进行详细地讲解。</intro>
+  </course>  
+  <course id="9">
+      <imgtitle>访问网络与数据提交方式</imgtitle>
+      <title>第9章 网络编程</title>
+      <intro>      Android 由互联网巨头Google带头开发，因此Android对网络功能的支持是必不可少的，Android系统提供了一下几种方式实现网络通信，本章将会讲解如何在手机端使用HTTP协议和与服务器端进行网络交互。</intro>
+  </course>  
+  <course id="10">
+      <imgtitle>动画、多媒体、传感器等</imgtitle>
+      <title>第10章 高级编程</title>
+      <intro>      前面 九章都是针对Android基础知识进行讲解，掌握好这些知识可以开发天气预报、新闻客户端等程序。为了让初学者能够更全面地掌握Android知识，本章将针对图形图像处理、多媒体、传感器、Fragment等高级编程知识进行详细地讲解。</intro>
+  </course>  
+</infos>

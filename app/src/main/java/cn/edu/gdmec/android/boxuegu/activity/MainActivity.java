@@ -83,6 +83,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                 setSelectStatus(2);
             }
         }
+        if (requestCode == 000) {
+            setSelectStatus(1);
+        }
     }
 
     private void setSelectStatus(int index) {

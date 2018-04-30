@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <exercises id="1">
+      <subject>1.使用SQLite数据库进行查询后，必须要做的操作是（）。</subject>
+      <a>关闭数据库</a>                                     
+      <b>直接退出</b>
+      <c>关闭Cursor</c>
+      <d>AC都是</d>
+      <answer>4</answer>
+  </exercises>
+  <exercises id="2">
+      <subject>2.使用SQLiteOpenHelper类可以生成一个数据库并可以对数据库版本进行管理的方法（）。</subject>
+      <a>getDatabase()</a>
+      <b>getWriteableDatabase()</b>
+      <c>getWriteable()</c>
+      <d>getAbleDatabase()</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="3">
+      <subject>3.下列命令中，属于SQLite下的命令是（）。</subject>
+      <a>shell</a>
+      <b>push</b>
+      <c>quit</c>
+      <d>keytool</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="4">
+      <subject>4.下列关于ListView使用的描述中，不正确的是（）。</subject>
+      <a>要使用ListView，必须为该ListView使用Adapter方式传递数据</a>
+      <b>要使用ListView，该布局文件对应的Activity必须继承ListActivity</b>
+      <c>ListView中每一项的视图布局既可以使用内置的布局，也可以使用自定义的布局方式</c>
+      <d>ListView中每一项被选中时，将会出发ListView对象的ItemClick事件</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="5">
+      <subject>5.关于适配的说法正确的是（）。</subject>
+      <a>它主要用来存储数据</a>
+      <b>它主要用来把数据绑定在组件上</b>
+      <c>它主要用来存储XML数据</c>
+      <d>它主要用来解析数据</d>
+      <answer>2</answer>
+  </exercises>
+</infos>

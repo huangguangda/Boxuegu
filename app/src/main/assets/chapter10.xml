@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <exercises id="1">
+      <subject>1.使用MediaPlayer播放保存在sdcard上的mp3文件时（）。</subject>
+      <a>需要使用MediaPlayer.create方法创建MediaPlayer</a>
+      <b>不能直接new MediaPlayer即可</b>
+      <c>直接使用setDataSource方法设置文件源</c>
+      <d>直接调用start方法，无需设置文件源</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="2">
+      <subject>2.下列不属于补间动画相关的类是（）。</subject>
+      <a>TranslateAnimation</a>
+      <b>FrameAnimation</b>
+      <c>RotateAnimation</c>
+      <d>AlphaAnimation</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="3">
+      <subject>3.有关于Fragment说法正确的是（）。</subject>
+      <a>使用Fragment必须在布局文件中加入fragment控件</a>
+      <b>Fragment有自己的界面和生命周期，可以完全替代Activity</b>
+      <c>Fragment的状态跟随它所关联的Activity的状态改变而改变</c>
+      <d>当Fragment停止时，与它关联的Activity也会停止</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="4">
+      <subject>4.MediaPlayer播放资源前，需要调用哪个方法完成准备工作（）。</subject>
+      <a>setDataSource</a>
+      <b>prepare</b>
+      <c>begin</c>
+      <d>pause</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="5">
+      <subject>5.下面属于Android动画分类的有（）。</subject>
+      <a>Tweens</a>
+      <b>Frame</b>
+      <c>Draw</c>
+      <d>Animation</d>
+      <answer>2</answer>
+  </exercises>
+</infos>

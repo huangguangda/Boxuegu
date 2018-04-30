@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--练习列表项布局-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp">
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/exercises_bg_1"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一章Android基础入门"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+        <!--android:singleLine="true"-->
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="共计5题"
+            android:textColor="#a3a3a3"
+            android:textSize="12sp"/>
+        <!--android:singleLine="true"-->
+    </LinearLayout>
+</LinearLayout>

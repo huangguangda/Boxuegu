@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <exercises id="1">
+      <subject>1.继承BroadcastReceiver会重写哪一个方法（）。</subject>
+      <a>onReceiver()</a>
+      <b>onUpdate()</b>
+      <c>onCreate()</c>
+      <d>onStart()</d>
+      <answer>1</answer>
+  </exercises>
+  <exercises id="2">
+      <subject>2.关于广播的作用，说法正确的是（）。</subject>
+      <a>它主要用来接收系统发布的一些消息的</a>
+      <b>它可以进行耗时的操作</b>
+      <c>它可以启动一个Activity</c>
+      <d>它可以帮助Actvity修改用户界面</d>
+      <answer>1</answer>
+  </exercises>
+  <exercises id="3">
+      <subject>3.下列方法中，用于发送一条有序广播的是（）。</subject>
+      <a>startBroadcastReceiver()</a>
+      <b>sendOrderedBroadcast()</b>
+      <c>sendBroadcast()</c>
+      <d>sendReceiver()</d>
+      <answer>2</answer>
+  </exercises>
+  <exercises id="4">
+      <subject>4.在清单文件中，注册广播时使用的节点是（）。</subject>
+      <a>activity</a>
+      <b>broadcast</b>
+      <c>receiver</c>
+      <d>broadcastreceiver</d>
+      <answer>3</answer>
+  </exercises>
+  <exercises id="5">
+      <subject>5.关于BroadcastReceiver说法不正确的是（）。</subject>
+      <a>是用来接收广播Intent的</a>
+      <b>一个广播Intent只能被一个订阅了此广播的BroadcastReceiver所接收</b>
+      <c>对有序广播，系统会根据接收者声明的优先级别按顺序逐个执行接收者</c>
+      <d>接收者声明的优先级别在android:priority属性中声明，数值越大优先级别越高</d>
+      <answer>2</answer>
+  </exercises>
+</infos>
