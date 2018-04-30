@@ -25,5 +25,7 @@
         <activity android:name=".activity.SettingActivity"></activity>
         <activity android:name=".activity.ModifyPswActivity"></activity>
         <activity android:name=".activity.FindPswActivity"></activity>
+        <activity android:name=".activity.UserInfoActivity"></activity>
+        <activity android:name=".activity.ChangeUserInfoActivity"></activity>
     </application>
 </manifest>
