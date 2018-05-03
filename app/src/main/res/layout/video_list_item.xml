@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp">
+    <ImageView
+        android:id="@+id/iv_left_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/course_bar_icon"/>
+    <TextView
+        android:id="@+id/tv_video_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="[第一节]Android简介"
+        android:textColor="#333333"
+        android:textSize="14sp"/>
+</LinearLayout>

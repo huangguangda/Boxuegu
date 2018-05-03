@@ -1,0 +1,172 @@
+[{
+ "chapterId": 1,
+ "data": [
+  {
+   "videoId": "1",
+   "title": "第1章 Android 基础入门",
+   "secondTitle": "迷情巧克力",
+   "videoPath": "https://gslb.miaopai.com/stream/PaGWXOMYz-rMWm-r9a2MvILINHMc0YBXe2i-dg__.mp4?ssig=acb6880de7200e266864581d97c0654d&time_stamp=1524887992615&cookie_id=&vend=1&os=3&partner=1&platform=2&cookie_id=&refer=miaopai&scid=PaGWXOMYz-rMWm-r9a2MvILINHMc0YBXe2i-dg__"
+  },
+  {
+   "videoId": "2",
+   "title": "第1章 Android 基础入门",
+   "secondTitle": "命运是什么",
+   "videoPath": "https://gslb.miaopai.com/stream/KP7xXv0IllZsjnK1HjVlkbGfb5yWj7mPbaEOmQ__.mp4?ssig=7d445a22609119e57b50c8fa9a84a11b&time_stamp=1524888071281&cookie_id=&vend=1&os=3&partner=1&platform=2&cookie_id=&refer=miaopai&scid=KP7xXv0IllZsjnK1HjVlkbGfb5yWj7mPbaEOmQ__"
+  }
+ ]
+},
+ {
+  "chapterId": 2,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第2章 Android UI开发",
+    "secondTitle": "水银为什么是液体",
+    "videoPath": "https://gslb.miaopai.com/stream/cnngO-Co7rFlVPzkS7qqoaxR7OFH72uvYDDiew__.mp4?ssig=b91b143afbaadb8472b57b17e0c213e5&time_stamp=1524888092840&cookie_id=&vend=1&os=3&partner=1&platform=2&cookie_id=&refer=miaopai&scid=cnngO-Co7rFlVPzkS7qqoaxR7OFH72uvYDDiew__"
+   },
+   {
+    "videoId": "2",
+    "title": "第2章 Android UI开发",
+    "secondTitle": "汽车的历史",
+    "videoPath": "https://gslb.miaopai.com/stream/6S23U5PMRtOQzu99NeITYztd0xtKFW2xDYxwXQ__.mp4?ssig=afa07a802aca690154953446fc5de4d4&time_stamp=1524888118545&cookie_id=&vend=1&os=3&partner=1&platform=2&cookie_id=&refer=miaopai&scid=6S23U5PMRtOQzu99NeITYztd0xtKFW2xDYxwXQ__"
+   }
+  ]
+ },
+ {
+  "chapterId": 3,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第3章 Activity",
+    "secondTitle": "汽车的历史",
+    "videoPath": "https://gslb.miaopai.com/stream/6S23U5PMRtOQzu99NeITYztd0xtKFW2xDYxwXQ__.mp4?ssig=afa07a802aca690154953446fc5de4d4&time_stamp=1524888118545&cookie_id=&vend=1&os=3&partner=1&platform=2&cookie_id=&refer=miaopai&scid=6S23U5PMRtOQzu99NeITYztd0xtKFW2xDYxwXQ__"
+   },
+   {
+    "chapterId": 3,
+    "videoId": "2",
+    "title": "第3章 Activity",
+    "secondTitle": "Activity中的数据传递",
+    "videoPath": ""
+   }
+  ]
+ },
+ {
+  "chapterId": 4,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第4章 数据存储",
+    "secondTitle": "文件存储",
+    "videoPath": ""
+   },
+   {
+    "videoId": "2",
+    "title": "第4章 数据存储",
+    "secondTitle": "XML序列化与SharedPreferences",
+    "videoPath": ""
+   }
+  ]
+ },
+ {
+  "chapterId": 5,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第5章 SQLite 数据库",
+    "secondTitle": "SQLite数据库的使用",
+    "videoPath": ""
+   },
+   {
+    "videoId": "2",
+    "title": "第5章 SQLite 数据库",
+    "secondTitle": "ListView控件的使用",
+    "videoPath": ""
+   }
+  ]
+ },
+ {
+  "chapterId": 6,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第6章 广播接收者",
+    "secondTitle": "内容提供者简介",
+    "videoPath": ""
+   },
+   {
+    "videoId": "2",
+    "title": "第6章 广播接收者",
+    "secondTitle": "内容提供者的访问",
+    "videoPath": ""
+   }
+  ]
+ },
+ {
+  "chapterId": 7,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第7章 服务",
+    "secondTitle": "广播接收者与自定义广播",
+    "videoPath": ""
+   },
+   {
+    "videoId": "2",
+    "title": "第7章 服务",
+    "secondTitle": "广播类型与常用的广播接收者",
+    "videoPath": ""
+   }
+  ]
+ },
+ {
+  "chapterId": 8,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第8章 内容提供者",
+    "secondTitle": "服务的创建与生命周期",
+    "videoPath": ""
+   },
+   {
+    "videoId": "2",
+    "title": "第8章 内容提供者",
+    "secondTitle": "服务的启动方式",
+    "videoPath": ""
+   }
+  ]
+ },
+ {
+  "chapterId": 9,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第9章 网络编程",
+    "secondTitle": "访问网络",
+    "videoPath": ""
+   },
+   {
+    "videoId": "2",
+    "title": "第9章 网络编程",
+    "secondTitle": "数据的提交方式",
+    "videoPath": ""
+   }
+  ]
+ },
+ {
+  "chapterId": 10,
+  "data": [
+   {
+    "videoId": "1",
+    "title": "第10章 高级编程",
+    "secondTitle": "图形图像处理与动画",
+    "videoPath": ""
+   },
+   {
+    "videoId": "2",
+    "title": "第10章 高级编程",
+    "secondTitle": "多媒体、与Fragment",
+    "videoPath": ""
+   }
+  ]
+ }
+]
